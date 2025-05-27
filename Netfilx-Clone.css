@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    background-image: url('https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg');
+    opacity: 0.6;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color {
+    width: 95%;
+    box-shadow: -13px 24px 250px 120px #000;
+    margin-left: 106px;
+    position: absolute;
+    z-index: -3;
+}
+
+.color2 {
+    width: 10%;
+    box-shadow: 13px -34px 600px 90px #000;
+    margin-left: 56px;
+    margin-top: 310px;
+    position: absolute;
+    z-index: -1;
+}
+
+.color1 {
+    width: 95%;
+    box-shadow: 13px 24px 710px 120px #000;
+    margin-left: 106px;
+    margin-top: 506px;
+    position: absolute;
+    z-index: -3;
+}
+
+.Title {
+    height: 34px;
+    width: 300px;
+    color: rgb(248, 9, 9);
+    fill: currentColor;
+    position: relative;
+    top: 22px;
+    left: 36px;
+}
+
+.sign {
+    color: white;
+    background-color: red;
+    padding: 7px 12px;
+    margin: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sign:hover {
+    background-color: rgb(247, 69, 69);
+}
+
+#greater-than1 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 63px;
+    left: -24px;
+}
+
+.select-option {
+    color: white;
+    background-color: black;
+    padding: 4px 25px;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.header-part {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -25px;
+    left: -120px;
+    font-weight: bold;
+}
+
+.grouping {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Heading-para {
+    font-size: 50px;
+    text-align: center;
+    color: #ffff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+#para {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    margin-top: 17px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.email-address {
+    border-radius: 5px;
+    width: 270px;
+    background-color: black;
+    color: white;
+    padding: 13px 16px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.getstarted {
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    padding: 9px 15px;
+    text-align: start;
+    color: white;
+    background-color: red;
+    font-size: 23px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+    margin-left: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.getstarted:hover {
+    background-color: rgb(240, 75, 75);
+}
+
+#line {
+    border: 2px solid red;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+#Trending {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.drop-down {
+    margin-top: 7px;
+    margin-left: 90px;
+}
+
+.country {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.movies {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    margin: 15px;
+    padding: 8px 12px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.default-ltr-cache-fa0tl5 {
+    margin-top: 0.75rem;
+}
+
+.default-ltr-cache-r1prx9 {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.default-ltr-cache-1rddc4n {
+    position: relative;
+    padding: 0;
+    background: rgb(35, 35, 35);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    left: 100px;
+    margin: 20px;
+}
+
+.default-ltr-cache-1rddc4n:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.default-ltr-cache-3xjlkv {
+    width: 160px;
+    height: 212px;
+}
+
+.default-ltr-cache-rd8qhi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.default-ltr-cache-cf8xw5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 2;
+}
+
+/* CSS Code for more reasons to join starts here */
+.more-reasons {
+    display: flex;
+    justify-content: center;
+    margin-left: -210px;
+    position: relative;
+    top: 340px;
+}
+
+.boxes {
+    height: 230px;
+    width: 250px;
+    margin: 12px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 43);
+}
+
+#reasons {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 300px;
+    margin-left: -880px;
+    font-size: 22px;
+}
+
+.default1 {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-right: 50px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.default2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-right: 30px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.default3 {
+    font-size: 22px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-right: 40px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.default4 {
+    font-size: 19px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-right: 30px;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+.paragraph {
+    color: white;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.default-ltr-cache-1nu0xuw {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+/* CSS Code for more reasons to join ends here */
+
+
+
+/* CSS for Frequently asked questions starts here */
+#FAQ {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 640px;
+    margin-left: -1075px;
+    position: relative;
+    z-index: 10;
+}
+
+.rectangle-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.rect-boxes {
+    position: relative;
+    top: 680px;
+    margin-top: 10px;
+    margin-left: -310px;
+    padding: 3px 18px;
+    height: 68px;
+    width: 1050px;
+    background-color: rgb(52, 51, 51);
+    cursor: pointer;
+}
+
+.rect-boxes:hover {
+    background-color: #605959;
+    transition: 0.8s;
+}
+
+.box-para {
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fa-solid {
+    float: right;
+    font-size: 42px;
+    margin-top: -30px;
+    font-weight: 100;
+    color: #ffff;
+}
+
+/* CSS for Frequently asked questions starts here */
+
+
+#membership-email {
+    color: white;
+    margin-top: 1230px;
+    margin-left: -730px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+}
+
+.mail-started {
+    margin-top: 1270px;
+    margin-left: -500px;
+}
+
+.new-email {
+    border-radius: 5px;
+    width: 270px;
+    background-color: black;
+    color: white;
+    padding: 13px 16px;
+}
+
+#get-star {
+    margin-left: 400px;
+    left: -35px;
+}
+
+#another-icon {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 50px;
+    margin-left: -18px;
+    left: -50px;
+}
+
+.Email {
+    border-radius: 5px;
+    width: 455px;
+    background-color: black;
+    color: white;
+    padding: 13px 16px;
+    position: absolute;
+    top: 1273px;
+    margin-left: -685px;
+}
+
+.questions {
+    color: rgb(177, 168, 168);
+    position: absolute;
+    top: 1380px;
+    margin-left: -880px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.questions a {
+    color: rgb(215, 197, 197);
+}
+
+
+
+/* Footer CSS starts here */
+.Footer {
+    position: absolute;
+    top: 1456px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 12px;
+    margin-left: 140px;
+}
+
+.footer-part a {
+    color: grey;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.header-part2 {
+    position: absolute;
+    top: 1650px;
+    left: 130px;
+}
+
+#netflix-india {
+    color: rgb(155, 141, 141);
+    margin-top: 40px;
+    margin-left: 7px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+/* Footer CSS ends here */
